@@ -6,6 +6,7 @@ import (
 	"github.com/stretchr/testify/assert"
 )
 
+// https://github.com/golang/go/wiki/TableDrivenTests
 type TestCase struct {
 	Name     string
 	Input1   int
