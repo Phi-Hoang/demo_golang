@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"strconv"
 
-	"github.com/Phi-Hoang/demo_golang/type_system/student"
+	"github.com/phihdn/demo_golang/type_system/student"
 )
 
 func main() {

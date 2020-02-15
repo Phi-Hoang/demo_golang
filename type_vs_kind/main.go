@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/Phi-Hoang/demo_golang/type_system/student"
+	"github.com/phihdn/demo_golang/type_system/student"
 )
 
 func main() {
@@ -21,4 +21,7 @@ func main() {
 
 	fmt.Printf("bStruct has type %s and kind %s\n", bType.Name(), bType.Kind())
 
+	aint := 1
+	aaType := reflect.TypeOf((aint))
+	fmt.Printf("aint has type %s and kind %s\n", aaType.Name(), aaType.Kind())
 }

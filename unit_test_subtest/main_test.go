@@ -17,7 +17,7 @@ type TestCase struct {
 // go test
 // go test -v
 func TestSum(t *testing.T) {
-	tests := []TestCase{{"1+1", 1, 1, 2}, {"1+2", 1, 2, 3}, {"2+3", 2, 3, 5}}
+	tests := []TestCase{{"1+1", 1, 1, 3}, {"1+2", 1, 2, 3}, {"2+3", 2, 3, 5}}
 
 	for _, tc := range tests {
 		t.Run(tc.Name, func(t *testing.T) {
